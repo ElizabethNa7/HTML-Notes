@@ -6,6 +6,29 @@
   <title></title>
 </head>
 
+<!-- CSS STUFF!!! Note that this style doesn't carry into other pages, so we have to use one external location for that!-->
+<!--<body style="background-color=#EAF6F6;"--> <!-- style is a CSS attribute, so it needs a ; at the end-->
+  <!-- instead of doing the above, we can do it like this: -->
+<style>
+  body{
+    background-color: white;
+  }
+
+  hr {
+  /*  background-color: lightgrey;*/
+  /* border-style: none; /*gets rid of the box*/
+  /*  height: 5px; /*remember everything is boxes, so since we got rid of the default ugly one, we want to give it a height (2 pixels) so that it creates a visible box)*/
+  /*  width: 50%; /*so even while you make a page shorter or longer, the line will only be the length of 50% of the page*/
+
+  border-style: dotted none none; /*so top is dotted and the left/right of the box is empty. If top none none, then it only applies to top (not top and bottom)*/
+/*or just do this border-style: none; and border-top-style: dotted; */
+    height: 0px;
+    border-color: grey;
+    border-width: 5px; /*affects the size of the dots*/
+    width: 10%
+  }
+</style>
+
 
 <h1>Web Dev Full Stack HTML Notes</h1>
 <hr>
@@ -119,12 +142,13 @@
   Resources
 </h2>
 <ol>
-  <li><strong>To circle-crop/edit images:</strong><br> https://crop-circle.imageonline.co/</li>
-  <li>
+  <li><strong><a href="https://crop-circle.imageonline.co/">To circle crop / edit images</a></strong></li>
+  <li><strong><a href="https://www.w3schools.com/cssref/css_default_values.asp">Default CSS values</a></strong></li>
+  <li><strong><a href="https://devdocs.io/">Devdocs (documentation for all langauges)</a></strong></li>
 
-  </li>
   <hr>
 
-
-
 </ol>
+
+</body>
+</html>
