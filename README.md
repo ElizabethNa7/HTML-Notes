@@ -2,9 +2,11 @@
 
 ### Link: https://elizabethna7.github.io/HTML-Notes/
 
-## Environment: IDE used: Visual Studio Code Language: Python3
+## Environment:
+IDE used: Visual Studio Code Language: Python3
 
-## To start/run the program: Run the code, and you will be prompted to input the data in the terminal.
+## To start/run the program:
+Run the code, and you will be prompted to input the data in the terminal.
 
 Please type/paste the data following this format: "TITLE,DATE,AUTHOR,LENGTH", with dates formatted as "mm/dd/yyyy" e.g. "02/14/1856"
 
